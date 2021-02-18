@@ -1,0 +1,16 @@
+{
+  "appname": "newmyappts",
+  "appport": "5006",
+  "mode": "browser",
+  "iconfile": "neutralino.png",
+  "window": {
+    "width": "1000",
+    "height": "700",
+    "fullscreen": false,
+    "alwaysontop": false,
+    "needsReload": true,
+    "iconfile": "neutralino.png",
+    "enableinspector": true,
+    "borderlesswindow": false
+  }
+}

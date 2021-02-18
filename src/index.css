@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+}
+
+#neutralinoapp {
+  text-align: center;
+  color: white;
+}
+#neutralinoapp h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+#neutralinoapp a {
+  margin-left: 12px;
+}
+#neutralinoapp span {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.btn__ram-usage {
+  color: ' #fff';
+  background-color: #28a745;
+  border-color: #28a745;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  fontsize: 1rem;
+  line-height: 1.5;
+  cursor: pointer;
+}
