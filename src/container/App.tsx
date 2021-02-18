@@ -1,21 +1,32 @@
 import React from 'react';
+import { ThemeProvider } from 'theme-ui';
+import {
+  Router,
+  createMemorySource,
+  createHistory,
+  LocationProvider,
+  RouteComponentProps
+} from '@reach/router';
+import Home from '../screens/Home';
+import { theme } from '../theme';
 
-import RamUsageExample from '../components/RamUsageExample';
-import NeuDefault from '../components/NeuDefault';
+const source = createMemorySource('/');
+const history = createHistory(source);
 
 const App = (): JSX.Element => {
   return (
-    <div>
-      <h1 data-testid="caption">NeutralinoJs</h1>
-
-      <div id="neuDefault">
-        <NeuDefault />
-      </div>
-      <div id="ramUsage">
-        <RamUsageExample />
-      </div>
-    </div>
+    <ThemeProvider theme={theme}>
+      <LocationProvider history={history}>
+        <Router>
+          <RouterPage path="/" pageComponent={<Home />} />
+        </Router>
+      </LocationProvider>
+    </ThemeProvider>
   );
 };
 
 export default App;
+
+const RouterPage = (
+  props: { pageComponent: JSX.Element } & RouteComponentProps
+) => props.pageComponent;

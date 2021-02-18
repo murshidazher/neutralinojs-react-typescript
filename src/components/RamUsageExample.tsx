@@ -1,4 +1,6 @@
+/** @jsx jsx */
 import React, { useState, useEffect, useCallback } from 'react';
+import { jsx } from 'theme-ui';
 
 const RamUsageExample = (): JSX.Element => {
   const [aMemVal, setAMemVal] = useState('');
@@ -12,7 +14,18 @@ const RamUsageExample = (): JSX.Element => {
   const getMemBtn = useCallback(() => {
     return (
       <input
-        className="btn btn__ram-usage"
+        css={{
+          color: 'black',
+          backgroundColor: 'white',
+          borderColor: 'green',
+          borderRadius: '0.25rem',
+          textAlign: 'center',
+          border: '1px solid transparent',
+          padding: '0.375rem 0.75rem',
+          fontsize: '1rem',
+          lineHeight: '1.5',
+          cursor: 'pointer',
+        }}
         type="button"
         value="Get Ram Usage"
         onClick={() => {
@@ -47,13 +60,17 @@ const RamUsageExample = (): JSX.Element => {
     <div>
       {getMemBtn()}
       {isbtnRamUsage === 1 ? (
-        <p id="ram">
+        <p>
           Available Memory :
-          <span id="aMem" style={{ margin: 10 }}>
+          <span sx={{
+            margin: 10,
+          }}>
             {aMemVal}
           </span>
           Total Memory :
-          <span id="tMem" style={{ margin: 10 }}>
+          <span sx={{
+            margin: 10,
+          }}>
             {tMemVal}
           </span>
         </p>

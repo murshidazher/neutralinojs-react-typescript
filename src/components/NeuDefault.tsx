@@ -1,12 +1,13 @@
 import React from 'react';
+import { Styled } from 'theme-ui';
 
 const NeuDefault = (): JSX.Element => {
   return (
-    <h3>
-      {`${NL_NAME} is running on port ${NL_PORT} inside a ${NL_OS}`} <br />
+    <Styled.h3>
+      {`${NL_NAME} is running on port ${NL_PORT} inside ${NL_OS}`} <br />
       <br />
       <span> {`v ${NL_VERSION}`} </span>
-    </h3>
+    </Styled.h3>
   );
 };
 
