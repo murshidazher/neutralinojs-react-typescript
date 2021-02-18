@@ -20,7 +20,9 @@ $ cd myapp
 Bundle source files
 
 ```bash
-$ neu build
+$ yarn install
+$ yarn build
+$ yarn start
 ```
 
 Learn more about neu-cli from [docs](https://neutralino.js.org/docs/#/tools/cli)
