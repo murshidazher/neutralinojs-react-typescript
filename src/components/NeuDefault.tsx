@@ -1,8 +1,6 @@
 import React from 'react';
 
-export interface NeuDefaultProps {}
-
-const NeuDefault: React.FC<NeuDefaultProps> = (): JSX.Element => {
+const NeuDefault = (): JSX.Element => {
   return (
     <h3>
       {`${NL_NAME} is running on port ${NL_PORT} inside a ${NL_OS}`} <br />

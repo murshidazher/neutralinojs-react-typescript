@@ -3,7 +3,7 @@ import React from 'react';
 import RamUsageExample from '../components/RamUsageExample';
 import NeuDefault from '../components/NeuDefault';
 
-const App = () => {
+const App = (): JSX.Element => {
   return (
     <div>
       <h1 data-testid="caption">NeutralinoJs</h1>

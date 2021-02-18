@@ -11,9 +11,10 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
+    "plugin:import/typescript",
     "prettier"
   ],
-  "plugins": ["prettier"],
+  "plugins": ["react", "react-hooks", "prettier"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -29,7 +30,7 @@
     "member-ordering": 0,
     "jsx-no-lambda": 0,
     "prettier/prettier": 2,
-    "react-hooks/exhaustive-deps": 2
+    "@typescript-eslint/no-explicit-any": 0
   },
   "overrides": [
     {

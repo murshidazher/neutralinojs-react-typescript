@@ -9,7 +9,7 @@ const RamUsageExample = (): JSX.Element => {
     // Runs Once after initial rendering
   }, []);
 
-  const GetMemBtn = useCallback(() => {
+  const getMemBtn = useCallback(() => {
     return (
       <input
         className="btn btn__ram-usage"
@@ -45,7 +45,7 @@ const RamUsageExample = (): JSX.Element => {
 
   return (
     <div>
-      {GetMemBtn()}
+      {getMemBtn()}
       {isbtnRamUsage === 1 ? (
         <p id="ram">
           Available Memory :

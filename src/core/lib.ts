@@ -4,7 +4,7 @@ export class AppLib {
       (data) => {
         alert(JSON.stringify(data));
       },
-      () => {}
+      () => null
     );
   }
 }
