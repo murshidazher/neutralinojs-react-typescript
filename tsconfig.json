@@ -19,9 +19,7 @@
     "jsx": "react",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "@main/*": ["src/main/*"],
-      "@renderer/*": ["src/renderer/*"]
+      "@/*": ["src/*"]
     },
     "typeRoots": ["./node_modules/@types/", "./src/@types"],
     "outDir": "./dist/"
