@@ -6,10 +6,10 @@
   "scripts": {
     "start": "neu listen --auto-build",
     "clean:build": "rm -rf .cache/ dist/",
-    "build": "cross-env NODE_ENV=production webpack --mode production --config webpack.config.js --progress",
-    "watch": "cross-env NODE_ENV=development webpack --mode development --config webpack.config.js --watch",
+    "build": "cross-env NODE_ENV=production webpack --mode production --config configs/webpack.prod.js --progress",
+    "watch": "cross-env NODE_ENV=development webpack --mode development --config configs/webpack.dev.js --watch",
     "check-type": "tsc -w",
-    "format": "prettier --write **/**/*.{js,jsx,ts,tsx}",
+    "format": "prettier --write src/**/**/*.{js,jsx,ts,tsx}",
     "lint": "eslint --fix src/**/*.{ts,tsx}",
     "release": "neu release",
     "test": "jest",

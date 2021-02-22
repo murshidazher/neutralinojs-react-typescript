@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: path.resolve(__dirname, '../src/renderer.tsx'),
   output: {
-    filename: 'app.[name].js',
+    filename: 'js/app.[name].js',
     path: path.resolve(__dirname, '../app/assets/'),
     publicPath: '/'
   },
