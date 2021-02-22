@@ -15,7 +15,7 @@
     "needsReload": true,
     "iconfile": "app/assets/neutralino.png",
     "enableinspector": false,
-    "borderless": true,
+    "borderless": false,
     "maximize": false
   }
 }
