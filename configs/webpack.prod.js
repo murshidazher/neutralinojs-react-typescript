@@ -31,7 +31,7 @@ module.exports = merge(common, {
     new HtmlWebpackPlugin({
       filename: '../index.html',
       template: 'app/template.html',
-      publicPath: './assets',
+      publicPath: '/assets',
       title: 'NeutralinoJs',
       inject: 'body',
       scriptLoading: 'blocking',
@@ -58,7 +58,7 @@ module.exports = merge(common, {
       cleanOnceBeforeBuildPatterns: [
         '**/js/app.*',
         '**/css/app.css',
-        '!**/js/neutralino.js',
+        '!neutralino.js',
         '!**/img/neutralino.png'
       ]
     })
