@@ -1,24 +1,6 @@
 #neutralinoapp a {
   margin-left: 12px;
 }
-#neutralinoapp span {
-  font-size: 12px;
-  font-weight: normal;
-}
-
-.btn__ram-usage {
-  color: ' #fff';
-  background-color: #28a745;
-  border-color: #28a745;
-  border-radius: 0.25rem;
-  font-weight: 400;
-  text-align: center;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  fontsize: 1rem;
-  line-height: 1.5;
-  cursor: pointer;
-}
 
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXV0cmFsaW5vanMtcmVhY3QtdHlwZXNjcmlwdC8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBaUI7QUFDbkI7QUFDQTtFQUNFLGVBQWU7RUFDZixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxjQUFjO0VBQ2QseUJBQXlCO0VBQ3pCLHFCQUFxQjtFQUNyQixzQkFBc0I7RUFDdEIsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQiw2QkFBNkI7RUFDN0IseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsZUFBZTtBQUNqQiIsImZpbGUiOiJhcHAuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI25ldXRyYWxpbm9hcHAgYSB7XG4gIG1hcmdpbi1sZWZ0OiAxMnB4O1xufVxuI25ldXRyYWxpbm9hcHAgc3BhbiB7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbn1cblxuLmJ0bl9fcmFtLXVzYWdlIHtcbiAgY29sb3I6ICcgI2ZmZic7XG4gIGJhY2tncm91bmQtY29sb3I6ICMyOGE3NDU7XG4gIGJvcmRlci1jb2xvcjogIzI4YTc0NTtcbiAgYm9yZGVyLXJhZGl1czogMC4yNXJlbTtcbiAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBib3JkZXI6IDFweCBzb2xpZCB0cmFuc3BhcmVudDtcbiAgcGFkZGluZzogMC4zNzVyZW0gMC43NXJlbTtcbiAgZm9udHNpemU6IDFyZW07XG4gIGxpbmUtaGVpZ2h0OiAxLjU7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXV0cmFsaW5vanMtcmVhY3QtdHlwZXNjcmlwdC8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxpQkFBaUI7QUFDbkIiLCJmaWxlIjoiYXBwLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNuZXV0cmFsaW5vYXBwIGEge1xuICBtYXJnaW4tbGVmdDogMTJweDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/

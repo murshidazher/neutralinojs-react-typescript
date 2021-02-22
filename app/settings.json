@@ -1,7 +1,11 @@
 {
   "appname": "newmyappts",
   "appport": "5006",
-  "mode": "browser",
+  "mode": "window",
+  "url": "/",
+  "globals": {
+    "AP": "Njs"
+  },
   "iconfile": "neutralino.png",
   "window": {
     "width": "1000",
@@ -10,7 +14,7 @@
     "alwaysontop": false,
     "needsReload": true,
     "iconfile": "neutralino.png",
-    "enableinspector": true,
-    "borderlesswindow": false
+    "enableinspector": false,
+    "borderlesswindow": true
   }
 }

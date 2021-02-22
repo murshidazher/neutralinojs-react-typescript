@@ -4,6 +4,7 @@ declare let NL_OS: string;
 declare let NL_PORT: string;
 declare let NL_MODE: string;
 declare let NL_CWD: string;
+declare let NL_AP: string;
 
 declare namespace Neutralino {
   interface DirectoryData {

@@ -1,7 +1,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-
 module.exports = {
   mode: process.env.NODE_ENV || 'development',
   devtool: 'inline-source-map',
@@ -13,29 +12,29 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
-        },
+        }
       },
       {
         test: /\.css$/i,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader,
+            loader: MiniCssExtractPlugin.loader
           },
-          'css-loader',
-        ],
-      },
-    ],
+          'css-loader'
+        ]
+      }
+    ]
   },
   resolve: {
-    extensions: ['.js', '.ts', '.jsx', '.tsx'],
+    extensions: ['.js', '.ts', '.jsx', '.tsx']
   },
   output: {
     filename: 'app.js',
-    path: path.resolve(__dirname, './app/assets'),
+    path: path.resolve(__dirname, './app/assets')
   },
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'app.css'
-    }),
-  ],
+    })
+  ]
 };
