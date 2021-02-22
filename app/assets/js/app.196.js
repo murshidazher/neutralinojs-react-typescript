@@ -1,3 +1,4 @@
+(function () { alert('app.196.js'); })();
 (self["webpackChunkneutralinojs_react_typescript"] = self["webpackChunkneutralinojs_react_typescript"] || []).push([[196],{
 
 /***/ 9713:
