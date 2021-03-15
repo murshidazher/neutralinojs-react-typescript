@@ -19,4 +19,9 @@ Bundle source files
 > yarn start
 ```
 
+## TODO
+
+- [ ] [Add MacOSX bundling](https://stackoverflow.com/questions/14621137/run-script-in-app-application-bundle-as-the-primary-executable)
+- [ ] [Converting shell script to app file](https://stackoverflow.com/questions/30792569/converting-a-shell-script-into-a-app-file)
+
 Learn more about neu-cli from [docs](https://neutralino.js.org/docs/#/tools/cli)
